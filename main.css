@@ -1,0 +1,45 @@
+body {
+  font-family: Arial;
+  color: grey;
+  font-size: 11pt;
+}
+
+body button {
+  margin-top: 10px;
+}
+
+.left, .results {
+  overflow: hidden;
+}
+
+.elements, .results {
+  border: 1px dashed #cccccc;
+}
+
+.header, .names, .results, .elements {
+  padding: 10px;
+}
+
+.elements {
+  margin-bottom: 10px;
+}
+
+.left {
+  float: left;
+}
+
+.users {
+  border: 1px solid #cccccc;
+  width: 230px;
+  margin-right: 20px;
+}
+
+.header {
+  border-bottom: 1px solid #cccccc;
+}
+
+.checked {
+  background-color: #f0f0f0;
+  margin:5px;
+  padding: 2px;
+}
